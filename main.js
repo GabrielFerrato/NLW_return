@@ -17,5 +17,12 @@ function closeMenu() {
 
 
 ScrollReveal({
-  
-}).reveal('#home');
+  origin: 'top',
+  distance: '30px',
+  duration: 700,
+}).reveal(`#home, 
+#home img, 
+#homr .stats, 
+#services,
+#services header, 
+#services .card`);
